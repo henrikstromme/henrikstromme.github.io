@@ -1,7 +1,28 @@
-$('a[href*="#"]').on('click', function (e) {
-    e.preventDefault();
+$(function () {
 
-    $('html, body').animate({
-        scrollTop: $($(this).attr('href')).offset().top
-    }, 500, 'linear');
+    $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() !== 0) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+    $('#toTop').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+
+    $('#scrollToProjects').click(function () {
+        $("html, body").animate({
+            scrollTop: $("#projectView").offset().top - 120
+        }, 500);
+    });
+
+    $('#scrollToModels').click(function () {
+        $("html, body").animate({
+            scrollTop: $("#modelView").offset().top - 120
+        }, 500);
+    });
 });
+

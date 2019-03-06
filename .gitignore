@@ -1,1 +1,4 @@
 .idea/
+resources/css/.sass-cache
+resources/css/style.css.map
+resources/css/style.scss

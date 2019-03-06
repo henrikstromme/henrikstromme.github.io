@@ -5,134 +5,155 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Henrik Strømme - Designer</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Archivo|Karla|Spectral" rel="stylesheet">
 
+    <!-- Custom styling -->
     <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
         <a class="navbar-brand" href="#">Henrik Strømme</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Models</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="scrollToModels" href="#">Models</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="scrollToProjects" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Page Content -->
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="my-4" id="modelView">Models</h1>
+
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/portfolio/drone/drone4.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Project One</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/portfolio/horse/horse1.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Project Two</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="projects/insect.html"><img class="card-img-top" src="images/portfolio/radioactive_man/radioactive_man.png"></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="projects/insect.html">Project Three</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="images/portfolio/sune/sune.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Project Four</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <h1 class="my-4" id="projectView">Projects</h1>
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="projects/insect.html"><img class="card-img-top " src="images/portfolio/insectomancer/camazotz.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="projects/insect.html">Project One</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="projects/asgard.html"><img class="card-img-top" src="images/portfolio/asgard/enemy3.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="projects/asgard.html">Project Two</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="projects/spaceship.html"><img class="card-img-top" src="images/portfolio/spaceship/spaceship4.png" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="projects/spaceship.html">Project Three</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
     <div class="container">
-
-      <!-- Page Heading -->
-     <h1 class="my-4" id="modelView">Models</h1>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/seek_bot.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project One</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/rune.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="projects/insect.html"><img class="card-img-top" src="images/plant.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="projects/insect.html">Project Three</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/staff.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Four</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/enemy.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Five</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/stylesheet.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Six</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <h1 class="my-4" id="projectView">Projects</h1>
-
+        <p class="m-0 text-center text-white">Copyright &copy; Henrik Strømme 2019</p>
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Henrik Strømme 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.js"
-            integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
-            crossorigin="anonymous">
-
-    </script>
-    <script src="resources/js/main.js"></script>
+</footer>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="resources/js/main.js"></script>
 </body>
 </html>
