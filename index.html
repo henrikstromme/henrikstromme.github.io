@@ -22,138 +22,147 @@
 </head>
 
 <body>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Henrik Strømme</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="scrollToModels" href="#">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="scrollToProjects" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
     <div class="container">
-        <a class="navbar-brand" href="#">Henrik Strømme</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
+
+        <!-- Page Heading -->
+        <h1 class="my-4" id="modelView">Models</h1>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="models/drone.html"><img class="card-img-top" src="resources/images/drone/drone4.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="models/drone.html">Drone</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="models/mechentaur.html"><img class="card-img-top" src="resources/images/horse/horse_thumbnail.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="models/mechentaur.html">Mechentaur</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="models/radioactive_man.html">
+                        <img class="card-img-top" src="resources/images/radioactive_man/radioactive_man.png">
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="scrollToModels" href="#">Models</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="scrollToProjects" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="models/radioactive_man.html">Radioactive man</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="models/human.html"><img class="card-img-top" src="resources/images/sune/sune.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="models/human.html">Human</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</nav>
+        <!-- /.row -->
 
-<!-- Page Content -->
-<div class="container">
-
-    <!-- Page Heading -->
-    <h1 class="my-4" id="modelView">Models</h1>
-
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="images/portfolio/drone/drone4.png" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project One</a>
-                    </h4>
+        <h1 class="my-4" id="projectView">Projects</h1>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="projects/insectomancer.html">
+                        <img class="card-img-top " src="resources/images/insectomancer/thumbnail.jpg" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="projects/insectomancer.html">Insectomancer</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="projects/asgard.html">
+                        <img class="card-img-top" src="resources/images/asgard/thumbnail.jpg" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="projects/asgard.html">Asgard</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="projects/spaceship.html">
+                        <img class="card-img-top" src="resources/images/spaceship/spaceship_gameplay.jpg" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="projects/spaceship.html">Spaceship</a>
+                        </h4>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="images/portfolio/horse/horse1.png" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Two</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="projects/insect.html"><img class="card-img-top" src="images/portfolio/radioactive_man/radioactive_man.png"></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="projects/insect.html">Project Three</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="images/portfolio/sune/sune.png" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Four</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.row -->
-
-    <h1 class="my-4" id="projectView">Projects</h1>
-    <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="projects/insect.html"><img class="card-img-top " src="images/portfolio/insectomancer/camazotz.png" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="projects/insect.html">Project One</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="projects/asgard.html"><img class="card-img-top" src="images/portfolio/asgard/enemy3.png" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="projects/asgard.html">Project Two</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-            <div class="card h-100">
-                <a href="projects/spaceship.html"><img class="card-img-top" src="images/portfolio/spaceship/spaceship4.png" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="projects/spaceship.html">Project Three</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-
-<!-- Footer -->
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Henrik Strømme 2019</p>
+        <!-- /.row -->
     </div>
     <!-- /.container -->
-</footer>
-<script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous">
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="resources/js/main.js"></script>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Henrik Strømme 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+    </script>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>
