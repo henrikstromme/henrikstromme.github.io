@@ -49,9 +49,9 @@ body {
   color: #ffffff; }
 
 .carousel-item .d-block {
+  height: 40.5rem;
   background-color: #33333340; }
 .carousel-item img {
-  height: 31.25rem;
   object-fit: cover; }
 
 .row .related-work {
