@@ -110,12 +110,12 @@
 
             <div class="col-md-4">
                 <h3 class="my-3">Project Description</h3>
-		<p>This is a project I worked on in a group of six people (four artists) over three weeks.</p>
+		<p>This is a project I worked on in a group of six people (four artists) over three weeks. The game won the public choice award in a public game exhibition. The softwares used were Maya, Substance Painter and Unity 5. </p>
                 <h3 class="my-3">My Tasks</h3>
                 <ul>
-                    <li>Modeling the enemy characters.</li>
-                    <li>Modeling checkpoints</li>
-                    <li>Making particle effects in Unity 5</li>
+                    <li>Modeling and texturing the enemy characters.</li>
+                    <li>Modeling and texturing checkpoints</li>
+                    <li>Making the particle effects</li>
                 </ul>
 
                 <div class="embed-responsive embed-responsive-4by3">
